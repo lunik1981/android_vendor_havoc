@@ -4,6 +4,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 EXCLUDE_SYSTEMUI_TESTS := true
 
+BUILD_RRO_SYSTEM_PACKAGE := $(TOPDIR)vendor/havoc/build/core/system_rro.mk
+
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     keyguard.no_require_sim=true \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
